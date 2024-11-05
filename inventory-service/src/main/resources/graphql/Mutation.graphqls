@@ -1,4 +1,5 @@
 type Mutation{
 
-    addCreator(creator:String):Creator
+    addVideo(video:VideoRequest):Video
+    addCreator(creator:CreatorRequest):Creator
 }
